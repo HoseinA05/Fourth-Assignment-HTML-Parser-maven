@@ -1,0 +1,75 @@
+.bgContainer{
+    -fx-min-width: 400;
+}
+
+.header{
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+}
+
+Label{
+    -fx-font-size: 14px;
+}
+
+.title{
+    -fx-font-size: 15px;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.title:hover{
+    -fx-text-fill: #4b74fc;
+}
+
+.searchBox{
+    -fx-min-width: 300px;
+    -fx-min-height: 40px;
+    -fx-font-size: 16px;
+}
+
+.container{
+    -fx-padding: 20px;
+}
+
+.country{
+    -fx-padding: 10;
+    -fx-background-radius: 8px;
+    -fx-min-width: 300;
+}
+
+.tilesContainer{
+    -fx-padding: 10 20;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+    -fx-min-height: 500px;
+    -fx-pref-column-count: 4;
+}
+
+.country-name {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #717171;
+}
+
+.country-info {
+    -fx-font-size: 14px;
+}
+
+.country > Label{
+    -fx-padding: 5;
+}
+
+.pag > .pagination-control > .control-box > .number-button,
+.pag > .pagination-control > .control-box > .bullet-button,
+.pag > .pagination-control > .control-box > .left-arrow-button,
+.pag > .pagination-control > .control-box > .right-arrow-button{
+    -fx-background-insets: 0, 1;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+    -fx-font-size: 12px;
+}
+
+/* removing Pagination information */
+/* .pag > .pagination-control > .label{
+    -fx-page-information-visible: false;
+} */

@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38f29cca-a22a-4a80-af21-5d7004fd5e28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/mainPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/country-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/main-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParserTest.java" afterDir="false" />
+    <list default="true" id="38f29cca-a22a-4a80-af21-5d7004fd5e28" name="Changes" comment="Added Search and Dark Mode, cleaned the main page css">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/dark-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/light-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/main-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/mainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/mainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/main-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/main-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/login.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +20,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -61,9 +53,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Hosein/University/Term2/AP/04-3-Fourth-assignment/Fourth-Assignment-HTML-Parser/src"
+    "last_opened_file_path": "D:/Hosein/University/Term2/AP/04-3_Fourth-assignment/Fourth-Assignment-HTML-Parser"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,6 +67,26 @@
       <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser\src\main\java" />
       <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser\src\main\java\org\example\fourthassignmenthtmlparser" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.fourthassignmenthtmlparser.Main" />
+      <module name="Fourth-Assignment-HTML-Parser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.fourthassignmenthtmlparser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -92,5 +105,16 @@
       <updated>1713941139414</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -3,19 +3,23 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.TilePane?>
 
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.Button?>
 
-<VBox styleClass="bgContainer" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fourthassignmenthtmlparser.mainPageController">
-    <BorderPane styleClass="headerContainer">
+<VBox fx:id="bgContainer" styleClass="bgContainer, bg-1" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fourthassignmenthtmlparser.mainPageController">
+    <BorderPane styleClass="bg-2">
         <left>
-            <Label maxWidth="Infinity" styleClass="header, title" text="Countries" />
+            <Label maxWidth="Infinity" styleClass="header, txt-1" text="Countries" />
         </left>
         <right>
-            <Label styleClass="title" text="DarkMode" />
+            <TilePane style="-fx-padding: 12 20;">
+                <Button fx:id="darkModeBtn" styleClass="title, txt-1" text="DarkMode" onAction="#toggleDarkMode"/>
+            </TilePane>
         </right>
     </BorderPane>
 
@@ -23,34 +27,18 @@
 
         <BorderPane>
             <left>
-                <TextField fx:id="searchText" promptText="Search for a country" />
+                <TextField fx:id="searchText" promptText="Search for a country" styleClass="searchBox, bg-2, txt-1"/>
             </left>
             <right>
-                <ChoiceBox fx:id="selection" onAction="#onSelectionChange" prefWidth="150.0" />
+                <ChoiceBox fx:id="selection" onAction="#onSelectionChange" prefWidth="150.0" styleClass="cBox"/>
             </right>
         </BorderPane>
 
-        <AnchorPane fx:id="countriesContainer" >
+        <AnchorPane fx:id="countriesContainer">
 
         </AnchorPane>
-<!--              <ScrollPane>-->
-<!--                 <TilePane fx:id="countriesContainer" hgap="10" prefColumns="4" vgap="2">-->
-<!--                             <VBox>-->
-<!--                                <Label styleClass="country-name" text="United States of America" />-->
-<!--                                <Label styleClass="country-info" text="Population: 331,002,651" />-->
-<!--                                <Label styleClass="country-info" text="Region: Americas" />-->
-<!--                                <Label styleClass="country-info" text="Capital: Washington, D.C." />-->
-<!--                             </VBox>-->
-<!--                             <VBox>-->
-<!--                                <Label styleClass="country-name" text="Brazil" />-->
-<!--                                <Label styleClass="country-info" text="Population: 211,049,527" />-->
-<!--                                <Label styleClass="country-info" text="Region: Americas" />-->
-<!--                                <Label styleClass="country-info" text="Capital: Brasília" />-->
-<!--                             </VBox>-->
-<!--                 </TilePane>-->
-<!--              </ScrollPane>-->
 
     </VBox>
 
-    <Pagination prefHeight="200.0" prefWidth="200.0" fx:id="pagination"/>
+    <Pagination prefHeight="200.0" prefWidth="200.0" fx:id="pagination" styleClass="pag"/>
 </VBox>

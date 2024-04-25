@@ -1,0 +1,72 @@
+.bg-1{
+    -fx-background-color: #202d36;
+}
+.bg-2{
+    -fx-background-color: #2b3743;
+}
+
+.txt-1{
+    -fx-text-fill: #f9ffff;
+}
+
+.txt-2{
+    -fx-text-fill: #e7f1fa;
+}
+
+
+/* Choice Box  */
+.cBox > .label{
+    -fx-background-color: #2b3743;
+    -fx-text-fill: #f9ffff;
+}
+
+/* Background color of the whole context menu */
+.cBox .context-menu{
+    -fx-background-color: #2b3743;
+}
+
+/* Focused item background color in the list */
+.cBox .menu-item:focused {
+    -fx-background-color: #3d266b;
+}
+
+/* Text color of non-focused items in the list */
+.choice-box .menu-item > .label{
+    -fx-text-fill: #f9ffff;
+}
+
+/* Text color of focused item in the list */
+.cBox .menu-item:focused > .label{
+    -fx-text-fill: #f9ffff;
+}
+
+
+/* Pagination */
+/* Default */
+.pag > .pagination-control > .control-box > .number-button,
+.pag > .pagination-control > .control-box > .bullet-button,
+.pag > .pagination-control > .control-box > .left-arrow-button,
+.pag > .pagination-control > .control-box > .right-arrow-button{
+    -fx-text-fill: #f9ffff;
+    -fx-background-color: #2b3743;
+}
+/* Selected */
+.pagination > .pagination-control > .control-box > .number-button:selected,
+.pagination > .pagination-control > .control-box > .bullet-button:selected{
+    -fx-background-insets: 0;
+    -fx-background-color: #58379A;
+    -fx-text-fill: white;
+}
+/* Hover */
+.pag > .pagination-control > .control-box > .number-button:hover,
+.pag > .pagination-control > .control-box > .bullet-button:hover,
+.pag > .pagination-control > .control-box > .left-arrow-button:hover,
+.pag > .pagination-control > .control-box > .right-arrow-button:hover {
+    -fx-background-insets: 0;
+    -fx-text-fill: #f9ffff;
+    -fx-background-color: #a7a7a7;
+}
+/* Pagination Information */
+.pag > .pagination-control > .label{
+    -fx-text-fill: #f9ffff;
+}

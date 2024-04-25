@@ -11,7 +11,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main-page.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 700, 400);
-        scene.getStylesheets().add(getClass().getResource("styles/login.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("styles/main-page.css").toExternalForm());
 
         stage.setTitle("Login Page");
         stage.setScene(scene);
