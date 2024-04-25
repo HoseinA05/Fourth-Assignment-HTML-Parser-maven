@@ -35,6 +35,7 @@ Label{
     -fx-padding: 10;
     -fx-background-radius: 8px;
     -fx-min-width: 300;
+    -fx-max-width: 300;
 }
 
 .tilesContainer{

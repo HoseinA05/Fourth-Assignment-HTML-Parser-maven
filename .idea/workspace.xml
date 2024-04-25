@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f29cca-a22a-4a80-af21-5d7004fd5e28" name="Changes" comment="Added Search and Dark Mode, cleaned the main page css">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/dark-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/light-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/main-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/mainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/mainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/main-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/main-page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/main-page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.ParserTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Hosein/University/Term2/AP/04-3_Fourth-assignment/Fourth-Assignment-HTML-Parser"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ParserTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Hosein/University/Term2/AP/04-3_Fourth-assignment/Fourth-Assignment-HTML-Parser&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser" />
@@ -104,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1713941139414</updated>
     </task>
+    <task id="LOCAL‎−۰۰۰۰۱" summary="Added Search and Dark Mode, cleaned the main page css">
+      <option name="closed" value="true" />
+      <created>1714036409345</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
+      <updated>1714036409345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Search and Dark Mode, cleaned the main page css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Search and Dark Mode, cleaned the main page css" />
   </component>
 </project>

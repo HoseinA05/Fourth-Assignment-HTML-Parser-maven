@@ -13,7 +13,7 @@ public class Main extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 700, 400);
         scene.getStylesheets().add(getClass().getResource("styles/main-page.css").toExternalForm());
 
-        stage.setTitle("Login Page");
+        stage.setTitle("Countries Scraper");
         stage.setScene(scene);
         stage.show();
     }

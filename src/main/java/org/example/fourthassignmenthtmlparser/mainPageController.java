@@ -21,8 +21,6 @@ public class mainPageController {
     @FXML
     public Pagination pagination;
     @FXML
-    public AnchorPane countriesContainer;
-    @FXML
     public TextField searchText;
     @FXML
     public VBox bgContainer;
@@ -33,6 +31,7 @@ public class mainPageController {
     private List<Country> currentCountries = new ArrayList<>();
     private List<Country> sortedCountries;
     public void initialize() throws IOException {
+        // Adding light-them
         bgContainer.getStylesheets().add(getClass().getResource("styles/light-theme.css").toExternalForm());
 
         Parser p = new Parser();
@@ -56,7 +55,7 @@ public class mainPageController {
             }
         });
 
-
+        // Search Box Handling
         searchText.setOnKeyReleased(new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent keyEvent) {
@@ -81,9 +80,6 @@ public class mainPageController {
 
     // Shows The Current Page Countries from the list.
     private TilePane showPageTiles(List<Country> countries, int pageIndex){
-        // Removing Previous Countries
-        countriesContainer.getChildren().removeAll();
-
         // Creating New Countries of the page.
         TilePane container = new TilePane();
         container.getStyleClass().add("tilesContainer");
@@ -94,30 +90,29 @@ public class mainPageController {
 
             VBox country = new VBox();
             country.getStyleClass().add("country");
-            country.getStyleClass().addAll("bg-2", "bg-2");
+            country.getStyleClass().addAll("bg-2");
 
             Label countryName =  new Label(c.getName());
             countryName.getStyleClass().add("country-name");
-            countryName.getStyleClass().addAll("txt-1", "txt-1");
+            countryName.getStyleClass().addAll("txt-1");
             countryName.setTooltip(new Tooltip(c.getName()));
             country.getChildren().add(countryName);
 
             Label capital =  new Label("Capital: " + c.getCapital());
             capital.getStyleClass().add("country-info");
-            capital.getStyleClass().addAll("txt-2", "txt-2");
+            capital.getStyleClass().addAll("txt-2");
             country.getChildren().add(capital);
 
             Label population =  new Label("Population: " + c.getPopulation());
             population.getStyleClass().add("country-info");
-            population.getStyleClass().addAll("txt-2", "txt-2");
+            population.getStyleClass().addAll("txt-2");
             country.getChildren().add(population);
 
             Label area =  new Label("Area: " + c.getArea());
             area.getStyleClass().add("country-info");
-            area.getStyleClass().addAll("txt-2", "txt-2");
+            area.getStyleClass().addAll("txt-2");
             country.getChildren().add(area);
 
-            country.setMaxWidth(300);
             container.getChildren().add(country);
         }
         container.setEffect(new DropShadow());
@@ -150,6 +145,7 @@ public class mainPageController {
         });
     }
 
+    // Dark Mode Button Handling
     public void toggleDarkMode(ActionEvent actionEvent) {
         if(isDark){
             // if it was dark before

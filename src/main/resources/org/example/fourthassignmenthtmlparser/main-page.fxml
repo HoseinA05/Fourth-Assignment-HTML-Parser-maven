@@ -10,6 +10,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Pagination?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
 
 <VBox fx:id="bgContainer" styleClass="bgContainer, bg-1" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fourthassignmenthtmlparser.mainPageController">
     <BorderPane styleClass="bg-2">
@@ -34,11 +35,28 @@
             </right>
         </BorderPane>
 
-        <AnchorPane fx:id="countriesContainer">
-
-        </AnchorPane>
-
     </VBox>
+
+<!--    <TilePane styleClass="tilesContainer">-->
+<!--        <VBox styleClass="country, bg-2">-->
+<!--            <Label styleClass="country-name, txt-1" text="Japan"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="Tokyo"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="12000000"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="82130000"/>-->
+<!--        </VBox>-->
+<!--        <VBox styleClass="country, bg-2">-->
+<!--            <Label styleClass="country-name, txt-1" text="Japan"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="Tokyo"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="12000000"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="82130000"/>-->
+<!--        </VBox>-->
+<!--        <VBox styleClass="country, bg-2">-->
+<!--            <Label styleClass="country-name, txt-1" text="Japan"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="Tokyo"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="12000000"/>-->
+<!--            <Label styleClass="country-info, txt-2" text="82130000"/>-->
+<!--        </VBox>-->
+<!--    </TilePane>-->
 
     <Pagination prefHeight="200.0" prefWidth="200.0" fx:id="pagination" styleClass="pag"/>
 </VBox>
