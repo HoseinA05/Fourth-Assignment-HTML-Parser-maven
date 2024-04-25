@@ -121,7 +121,7 @@ public class mainPageController {
 
     // Handler for ChoiceBox Change.
     @FXML
-    public void onSelectionChange(ActionEvent e) {
+    public void onSelectionChange() {
         Parser p = new Parser();
         String selected = selection.getSelectionModel().getSelectedItem();
 
@@ -146,7 +146,7 @@ public class mainPageController {
     }
 
     // Dark Mode Button Handling
-    public void toggleDarkMode(ActionEvent actionEvent) {
+    public void toggleDarkMode() {
         if(isDark){
             // if it was dark before
             darkModeBtn.setText("DarkMode");

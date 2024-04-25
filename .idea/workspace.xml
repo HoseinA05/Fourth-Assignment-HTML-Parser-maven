@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38f29cca-a22a-4a80-af21-5d7004fd5e28" name="Changes" comment="Added Search and Dark Mode, cleaned the main page css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/Main.java" afterDir="false" />
+    <list default="true" id="38f29cca-a22a-4a80-af21-5d7004fd5e28" name="Changes" comment="Cleaned the code and Added Readme">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/mainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fourthassignmenthtmlparser/mainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/main-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/main-page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/fourthassignmenthtmlparser/styles/main-page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +55,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Hosein\University\Term2\AP\04-3_Fourth-assignment\Fourth-Assignment-HTML-Parser" />
       <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser" />
       <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser\src\main\resources" />
       <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser\src\main\resources\org\example\fourthassignmenthtmlparser" />
       <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser\src\main\java" />
-      <recent name="D:\Hosein\University\Term2\AP\04-3-Fourth-assignment\Fourth-Assignment-HTML-Parser\src\main\java\org\example\fourthassignmenthtmlparser" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Hosein\University\Term2\AP\04-3_Fourth-assignment\Fourth-Assignment-HTML-Parser\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -108,7 +108,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
       <updated>1714036409345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎−۰۰۰۰۲" summary="Cleaned the code and Added Readme">
+      <option name="closed" value="true" />
+      <created>1714074096863</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
+      <updated>1714074096863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Search and Dark Mode, cleaned the main page css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Search and Dark Mode, cleaned the main page css" />
+    <MESSAGE value="Cleaned the code and Added Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned the code and Added Readme" />
   </component>
 </project>
