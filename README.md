@@ -2,7 +2,11 @@
 
 ![Overview Gif](./overview.gif)
 ## Description
+<div align="center">
+<img src="nice.png" width="50%">
 
+score: 130/100
+<div/>
 Scraping a Website which contains Information about different countries
 
 Some of the features:
